@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="940ed376-09b1-4278-8417-9dad99b41fc9" name="webtech" url="http://server.webtech.local/">
+        <fileTransfer rootFolder="/home/ubuntu/Public" accessType="SFTP" host="server.webtech.local" port="22" sshConfigId="4addb133-9c4c-4f0e-9e24-31bd193142a0" sshConfig="ubuntu@server.webtech.local:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

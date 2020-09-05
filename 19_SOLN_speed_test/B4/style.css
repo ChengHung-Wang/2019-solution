@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left:40px;
+    padding-top:40px;
+}
+
+#toggle {
+    display:none;
+}
+
+#switch {
+    width:80px;
+    height:40px;
+    border-radius:20px;
+    overflow: hidden;
+    padding:0 15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.circle {
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+#toggle:not(:checked) ~ #switch { background-color:cyan }
+#toggle:not(:checked) ~ #switch .cyan { animation: small 1s forwards; z-index:1; }
+#toggle:not(:checked) ~ #switch .blue { animation: big 1s forwards }
+
+#toggle:checked ~ #switch { background-color:darkblue }
+#toggle:checked ~ #switch .cyan { animation: big 1s forwards }
+#toggle:checked ~ #switch .blue { animation: small 1s forwards; z-index:1; }
+
+@keyframes small {
+    0%, 50% {
+        transform:scale(0);
+    }
+    100% {
+        transform:scale(1);
+    }
+}
+
+@keyframes big {
+    0% {
+        transform:scale(1);
+    }
+    50%, 100% {
+        transform:scale(15);
+    }
+}

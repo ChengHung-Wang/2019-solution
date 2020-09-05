@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+#face {
+    width:400px;
+    height:400px;
+    border:black solid 20px;
+    background:gray;
+    border-radius:50%;
+    transition: background-color .5s, border-color .5s;
+}
+
+.eyes {
+    display:flex;
+    justify-content:space-between;
+    margin:100px auto 0;
+    width:55%;
+}
+.eye {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color: black;
+    transition: background-color .5s;
+}
+.mouth {
+    width:65%;
+    margin:60px auto 0;
+    display:flex;
+    height:60px;
+}
+.lip {
+    width:100%;
+    height:100%;
+    background-color: black;
+    transition: background-color .5s, border-radius .5s;
+}
+.lip:nth-child(1) {
+    border-radius: 30px 0 0 30px;
+}
+.lip:nth-child(2) {
+    border-radius: 0 30px 30px 0;
+}
+
+#face[data-type="2"] {
+    background-color: #ffd34f;
+    border-color: #eea02c;
+}
+#face[data-type="2"] .eye,
+#face[data-type="2"] .lip {
+    background-color: #eea02c;
+}
+
+#face[data-type="1"] {
+    background-color: #ff4f4f;
+    border-color: #ce1f1f;
+}
+#face[data-type="1"] .eye,
+#face[data-type="1"] .lip {
+    background-color: #d22121;
+}
+#face[data-type="1"] .lip:nth-child(1) {
+    border-radius: 100% 0 0 0;
+}
+#face[data-type="1"] .lip:nth-child(2) {
+    border-radius: 0 100% 0 0;
+}
+
+#face[data-type="3"] {
+    background-color: #6fff4f;
+    border-color: #44bf18;
+}
+#face[data-type="3"] .eye,
+#face[data-type="3"] .lip {
+    background-color: #37af18;
+}
+#face[data-type="3"] .lip:nth-child(1) {
+    border-radius: 0 0 0 100%;
+}
+#face[data-type="3"] .lip:nth-child(2) {
+    border-radius: 0 0 100% 0;
+}
+
+.buttons {
+    margin-top:50px;
+    display:flex;
+}
+.button {
+    font-size: 1.25rem;
+    border:none;
+    background-color: #333;
+    color:#fafafa;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 5px;
+    cursor: pointer;
+}

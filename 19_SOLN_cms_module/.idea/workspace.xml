@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a581f98e-8af7-4721-9623-8101d754fe05" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1g4ebeaJ347T7eMfqBGP3gTTMVr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/XX_cms_module" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a581f98e-8af7-4721-9623-8101d754fe05" name="Default Changelist" comment="" />
+      <created>1597378365401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597378365401</updated>
+      <workItem from="1597378366694" duration="4160000" />
+      <workItem from="1597393739343" duration="839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1597394567888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597394567888" />
+    <state x="628" y="195" key="#Options" timestamp="1597394318397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="628" y="195" key="#Options/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597394318397" />
+    <state x="536" y="164" key="#SSH_Configurations" timestamp="1597393880848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="164" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597393880848" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597394577848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597394577848" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1597393928998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597393928998" />
+    <state x="1391" y="228" key="ftp.server.browser" timestamp="1597394551480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1391" y="228" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597394551480" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597384608065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597384608065" />
+    <state x="756" y="257" key="webDeployment.PermissionsDialog.Tabs" timestamp="1597394431335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="257" key="webDeployment.PermissionsDialog.Tabs/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597394431335" />
+  </component>
+</project>

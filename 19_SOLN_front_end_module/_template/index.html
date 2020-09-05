@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knowledge Explorer</title>
+    <link rel="stylesheet" href="vendor/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    <div id="editor">
+        <img class="logo" src="images/logo.png" alt="knowledge explorer" title="logo">
+        <svg class="links">
+            <path d="M 100 750 L 400 750" class="link"></path>
+            <path d="M 100 800 L 400 800" class="link selected"></path>
+        </svg>
+        <div class="elements">
+            <div class="element" style="left:150px; top:150px;">
+                <div class="nodes">
+                    <button class="node node-1"><span class="node-text">1</span></button>
+                    <button class="node node-2"><span class="node-text">2</span></button>
+                    <button class="node node-3"><span class="node-text">3</span></button>
+                    <button class="node node-4"><span class="node-text">4</span></button>
+                </div>
+                <div class="tools">
+                    <button class="btn btn-info arial btn-custom tool tool-edit">&#9998;</button>
+                    <button class="btn btn-danger arial btn-custom tool tool-delete">&#10006;</button>
+                </div>
+            </div>
+            <div class="element selected" style="left:350px; top:150px;">
+                <div class="nodes">
+                    <button class="node node-1"><span class="node-text">1</span></button>
+                    <button class="node node-2"><span class="node-text">2</span></button>
+                    <button class="node node-3"><span class="node-text">3</span></button>
+                    <button class="node node-4"><span class="node-text">4</span></button>
+                </div>
+                <div class="tools">
+                    <button class="btn btn-info arial btn-custom tool tool-edit">&#9998;</button>
+                    <button class="btn btn-danger arial btn-custom tool tool-delete">&#10006;</button>
+                </div>
+            </div>
+        </div>
+        <div class="linking" style="left:150px; top:400px">2</div>
+        <div class="nav">
+            <button class="btn btn-info btn-custom">Clear</button>
+            <button class="btn btn-warning btn-custom ml-2">View Mode</button>
+        </div>
+        <div class="editor">
+            <button class="btn btn-danger btn-custom mb-3">Close</button>
+            <div class="form-group">
+                <label for="input-1">Title</label>
+                <input type="text" class="form-control" id="input-1">
+            </div>
+            <div class="form-group">
+                <label for="input-1">Content</label>
+                <input type="text" class="form-control" id="input-2">
+            </div>
+            <div class="form-inline mb-1">
+                <label>
+                    <span>Caption 1</span>
+                    <input type="text" class="form-control ml-3">
+                </label>
+            </div>
+            <div class="form-inline mb-1">
+                <label>
+                    <span>Caption 2</span>
+                    <input type="text" class="form-control ml-3">
+                </label>
+            </div>
+            <div class="form-inline mb-1">
+                <label>
+                    <span>Caption 3</span>
+                    <input type="text" class="form-control ml-3">
+                </label>
+            </div>
+            <div class="form-inline mb-1">
+                <label>
+                    <span>Caption 4</span>
+                    <input type="text" class="form-control ml-3">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div id="viewer">
+        <div class="side">
+            <div>
+                <button class="btn btn-primary btn-custom">Edit Mode</button>
+            </div>
+            <div>
+                <p>
+                    <button class="btn arrow btn-dark disabled">
+                        <b>Top</b>
+                        <span>asdf</span>
+                    </button>
+                </p>
+                <p>
+                    <button class="btn arrow btn-dark ">
+                        <b>Right</b>
+                        <span>asdf</span>
+                    </button>
+                </p>
+                <p>
+                    <button class="btn arrow btn-dark ">
+                        <b>Bottom</b>
+                        <span>asdf</span>
+                    </button>
+                </p>
+                <p>
+                    <button class="btn arrow btn-dark ">
+                        <b>Left</b>
+                        <span>asdf</span>
+                    </button>
+                </p>
+            </div>
+            <div>
+                <div class="navigation">
+                    <div class="navigation-layout"></div>
+                </div>
+            </div>
+        </div>
+        <div class="slides">
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="title">
+                        Lorem ipsum dolor sit amet,
+                    </div>
+                    <div class="separator"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem beatae consectetur consequatur delectus dicta doloremque eos eveniet exercitationem fuga impedit inventore minima natus nesciunt obcaecati, odio possimus rerum, voluptas!</p>
+                    <img src="images/example.jpg" alt="example" title="example">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

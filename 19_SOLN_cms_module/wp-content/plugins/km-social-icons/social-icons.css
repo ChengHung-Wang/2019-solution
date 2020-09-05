@@ -1,0 +1,11 @@
+#social-icons {
+    display:flex;
+}
+
+#social-icons a {
+    margin: 0 10px;
+}
+
+#social-icons i {
+    font-size: 16px;
+}
